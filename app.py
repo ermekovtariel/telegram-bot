@@ -23,14 +23,19 @@ async def send_start(message: types.Message):
                 ),
                 InlineKeyboardButton(
                     text="CV", 
-                    web_app=WebAppInfo(url="https://www.canva.com/design/DAGawcSI9D8/PksGUYo-r1lFPiWyTuK3kA/view?utm_content=DAGawcSI9D8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb4de3f7fa3")
+                    web_app=WebAppInfo(url="https://www.canva.com/design/DAGawcSI9D8/kVWPBZ0dbghtIh6odIvpNQ/edit?utm_content=DAGawcSI9D8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton")
                 )
             ],
             [
                 InlineKeyboardButton(
                     text="Download CV", 
                     callback_data="download_cv"
+                ),
+                InlineKeyboardButton(
+                    text="My Taplink", 
+                    web_app=WebAppInfo(url="https://etariel.taplink.ws")
                 )
+                
             ]
         ]
     )
